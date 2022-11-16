@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+:root{
+    --cor0: #F5C764;
+    --cor1: #EBCD60;
+    --cor2: #DFAD67;
+    --cor3: #EBA42A;
+    --cor4: #742f2f;
+}
+
+body{
+   background-image: linear-gradient(to right, var(--cor0), var(--cor3) );
+
+}
+main{
+    background-color: var(--cor2);
+    padding: 10px;
+    max-width: 1000px;
+    min-width: 320px;
+    height:500px;
+    border-radius: 10px;
+    box-shadow: 10px 8px 15px var(--cor3);
+    margin: auto;
+    margin-top: 50px;
+}
+
+h1{
+    font: normal normal 4em 'Dancing Script';
+    font-weight: 600;
+    color: var(--cor4);
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+hr{
+    height:1px;
+    border: none;
+    max-width: 800px;
+    background-color:var(--cor4);
+    margin-top: -15px; 
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.303); 
+}
+
+nav{
+    text-align: center;
+    margin-top: 20px;
+    
+        
+}
+
+nav > a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: var(--cor4);
+    background-color: var(--cor0);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+    margin-right: 10px;  
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+    
+}
+
+nav > a:hover{
+    background-color:#f9af2e5e ;
+    text-decoration: underline;
+}
+
+section{
+    columns: 2;     
+    margin: auto;    
+    padding: 30px;
+    max-width: 500px;
+    min-width: 320px;  
+    
+}
+
+section > a > picture > img {
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.421);
+
+}
+
+section > a:hover{
+    background-color: #402b18;
+    border-radius: 10px;
+}
+
+
+
+
+footer{
+    
+    text-align: center;
+    color: #402b18;
+    
+}
